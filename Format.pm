@@ -62,7 +62,9 @@ sub run {
 
 	# Construct output.
 	my $isbn_concrete;
-	if (length $self->{'_isbn_string'} > 10) {
+	my $isbn_without_dash = $self->{'_isbn_string'};
+	$isbn_without_dash =~ s/-//msg;
+	if (length $isbn_without_dash > 10) {
 		$isbn_concrete = $isbn_obj->as_isbn13;
 	} else {
 		$isbn_concrete = $isbn_obj->as_isbn10;

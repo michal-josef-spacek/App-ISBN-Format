@@ -38,7 +38,7 @@ sub run {
 		print STDERR "Usage: $0 [-h] [--version] isbn_string\n";
 		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t--version\tPrint version.\n";
-		print STDERR "\tisbn_string\tISBN string.";
+		print STDERR "\tisbn_string\tISBN string.\n";
 		return 1;
 	}
 	$self->{'_isbn_string'} = shift @ARGV;

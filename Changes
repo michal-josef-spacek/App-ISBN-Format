@@ -1,5 +1,6 @@
 0.03
  - Fix typo in doc.
+ - Rename example file to better name.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 

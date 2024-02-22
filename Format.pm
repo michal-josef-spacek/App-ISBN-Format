@@ -122,6 +122,8 @@ Returns 1 for error, 0 for success.
 
 =head1 EXAMPLE
 
+=for comment filename=format_example_isbn.pl
+
  use strict;
  use warnings;
 

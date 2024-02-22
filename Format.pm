@@ -85,7 +85,7 @@ __END__
 
 =head1 NAME
 
-App::ISBN::Format - Base class for cpan-get script.
+App::ISBN::Format - Base class for isbn-format script.
 
 =head1 SYNOPSIS
 

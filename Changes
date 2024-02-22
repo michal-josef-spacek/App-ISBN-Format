@@ -1,5 +1,6 @@
 0.03
  - Fix typo in doc.
+ - Update Module::Install to 1.21 version.
 
 0.02 2022-02-15T00:13:22+01:00
  - Add missing newline in help.
